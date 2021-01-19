@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: grey;
+        margin: 5px;
+        padding: 10px;}
+
+        .flex > div{
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+.flex-item-1{
+    flex: 1;
+    background-color: grey;
+    justify-content: space-around;
+}
+.flex-item-2 {
+    flex: 2;
+    background-color: limegreen;
+}
+.flex-item-3 {
+    flex: 2;
+    flex-direction: column;
+}
+.selection-1 {
+margin: 5px;
+width: 100px;
+padding: 10px;
+
+justify-content: space-between;
+}
+
+    </style>
+</head>
+<body>
+    <div class="flex" id="selection-1">
+        <div class="flex item-1">Element</div>
+        <div class="flex item-1">Element</div>
+        <div class="flex item-1">Element</div>
+        <div class="flex item-1">Element</div>
+        <div class="flex item-1">Element</div>
+    </div>
+    <div class="flex" id="selection-2">
+        <div class="flex-item-1">
+            <div class="flex">
+                <div class="flex-item-3">
+                    <img src="https://img.rewe-static.de/7223994/27898714_digital-image.png" width="200" height="auto" alt="haribo">
+                    <img src="https://img.rewe-static.de/7223994/27898714_digital-image.png" width="200" height="auto" alt="haribo">
+                    <img src="https://img.rewe-static.de/7223994/27898714_digital-image.png" width="200" height="auto" alt="haribo">
+                    <img src="https://img.rewe-static.de/7223994/27898714_digital-image.png" width="200" height="auto" alt="haribo">
+
+    </div>
+
+    <div class="flex" id="selection-3">
+        <div class="flex item-2"> Element</div>
+        <div class="flex item-2"> Element</div>
+        <div class="flex item-2"> Element</div>
+        <div class="flex item-2"> Element</div>
+    </div>
+
+    <div class="flex" id="selection-4">bu dünya kimseye kalmaz</div>
+
+</body>
+</html>

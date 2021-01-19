@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+}
+.box{
+    width: 450px;
+    background-color:black;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:ivory;
+    
+   
+}
+.box img {
+    border-radius: 50%;
+    width: 400px;
+    height: 350px;
+    cursor: pointer;
+    transition: 0,5s;
+}     
+.box img:hover{
+    transform: scale(0.9);
+
+}
+.box h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100px;
+    font-family:serif;
+    
+}
+.box h2{
+    font-size: 20px;
+    font-weight: 100px;
+    letter-spacing: 3px;
+    font-style: italic;
+
+}
+.box p{
+    text-align: justify;
+    font-style: italic;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style:none;
+}
+.box li a{
+    color: white;
+    font-size: 60px;
+    transition: all ease-in-out 20ms;
+}
+.box li a:hover{
+    color: #b9b9b9;
+}
+.box h1:hover{
+    transform: scale(0.9);
+
+}
+.home{
+    background-color: ivory;
+    width: 150px;
+    height: 50px;
+    border: none;
+    line-height: 40px;
+    position: relative;
+    transition: all 1s;
+    cursor: pointer;
+}
+.home:hover{
+    transform: scale(0.9);
+}
+.box-1{
+    width: 450px;
+    background-color:black;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:ivory;}
+.navi{
+    font-size: 20px;
+
+
+}
+.navi li a{
+    color: ivory;
+    text-decoration:none;
+}
+.box a{
+    text-decoration:none;
+}

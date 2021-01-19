@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox CSS Aufgabe 3</title>
+    <style>
+        .flex{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex > div{
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        .flex-item-1{
+            flex:1;
+            background-color: grey;
+        }
+        .flex-item-2{
+            flex:2;
+            background-color: grey;
+        }
+        .flex-item-3{
+            flex:1;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex" id="section-1">
+        <div class="flex-item-1">1zu1 Element</div>
+        <div class="flex-item-2">1zu2 Element</div>
+        <div class="flex-item-1">1zu1 Element</div>
+    </div>
+    <div class="flex" id="section-2">
+        <div class="flex-item-1">50% Element</div>
+        <div class="flex-item-1">50% Element</div>
+    </div>
+    <div class="flex" id="section-3">
+        <div class="flex-item-1">
+            <div class="flex">
+                <div class="flex-item-3">
+                    <img src="https://img.rewe-static.de/7223994/27898714_digital-image.png" width="200" height="auto" alt="haribo">
+                </div>
+                <div class="flex-item-3">
+                    <p>Information</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex-item-2">
+            Rechte Hälfte
+        </div>
+    </div>
+    <div class="flex" id="selection-4">
+        <div class="flex-item-2">dezember</div>
+        <div class="flex-item-1">dezember</div>
+        <div class="flex-item-2">dezember</div>
+    </div>
+</body>
+</html>
